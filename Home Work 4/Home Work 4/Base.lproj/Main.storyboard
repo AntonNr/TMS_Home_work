@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Home_Work_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Что вы хотите?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgp-Wo-czH">
+                                <rect key="frame" x="105" y="20" width="205" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBf-Ji-umI">
+                                <rect key="frame" x="291.33333333333331" y="91" width="102.66666666666669" height="44"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Купить">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buyMiller" destination="BYZ-38-t0r" eventType="touchUpInside" id="WSp-NH-C4S"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miller" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBL-ya-zMC">
+                                <rect key="frame" x="20" y="98" width="70.666666666666671" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeZ-zJ-6wc">
+                                <rect key="frame" x="291" y="143" width="103" height="44"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Купить">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buyHeineken" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cm1-iW-n0O"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heineken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSj-Pb-zFS">
+                                <rect key="frame" x="20" y="150" width="122" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cPt-rT-pPk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3e-tZ-Rso">
+                                <rect key="frame" x="291" y="195" width="103" height="44"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Купить">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buyCorona" destination="BYZ-38-t0r" eventType="touchUpInside" id="NSL-l0-1H1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Corona" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHH-aV-Mpb">
+                                <rect key="frame" x="20" y="202" width="95" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Итог" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Duq-xa-gqi">
+                                <rect key="frame" x="10" y="353" width="394" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgU-3V-h5C">
+                                <rect key="frame" x="78" y="666" width="258" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Закончить смену">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="endOfShift" destination="BYZ-38-t0r" eventType="touchUpInside" id="s1k-td-fef"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bgU-3V-h5C" secondAttribute="trailing" constant="78" id="8s7-ws-JqN"/>
+                            <constraint firstItem="WSj-Pb-zFS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BqS-O6-W9j"/>
+                            <constraint firstItem="Duq-xa-gqi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D5X-bH-3Tf"/>
+                            <constraint firstItem="pBL-ya-zMC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DaD-JL-zr0"/>
+                            <constraint firstItem="AHH-aV-Mpb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KaI-gR-3cf"/>
+                            <constraint firstItem="bgp-Wo-czH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="PkG-2u-xqU"/>
+                            <constraint firstItem="bgU-3V-h5C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="78" id="RE9-QA-2Yi"/>
+                            <constraint firstItem="bgp-Wo-czH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Snm-FK-mU5"/>
+                            <constraint firstItem="bgU-3V-h5C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a2J-AC-NjU"/>
+                            <constraint firstItem="WSj-Pb-zFS" firstAttribute="centerY" secondItem="eeZ-zJ-6wc" secondAttribute="centerY" id="aon-U5-hb1"/>
+                            <constraint firstItem="pBL-ya-zMC" firstAttribute="top" secondItem="bgp-Wo-czH" secondAttribute="bottom" constant="42" id="bXR-Tw-dvz"/>
+                            <constraint firstItem="AHH-aV-Mpb" firstAttribute="top" secondItem="WSj-Pb-zFS" secondAttribute="bottom" constant="22" id="byE-rm-3tR"/>
+                            <constraint firstItem="s3e-tZ-Rso" firstAttribute="top" secondItem="eeZ-zJ-6wc" secondAttribute="bottom" constant="8" symbolic="YES" id="dKe-Om-s88"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bgU-3V-h5C" secondAttribute="bottom" constant="20" id="ena-Hs-cMT"/>
+                            <constraint firstItem="eeZ-zJ-6wc" firstAttribute="top" secondItem="kBf-Ji-umI" secondAttribute="bottom" constant="8" symbolic="YES" id="gyQ-wL-ONY"/>
+                            <constraint firstItem="Duq-xa-gqi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ljU-NQ-sHG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Duq-xa-gqi" secondAttribute="trailing" constant="10" id="naT-Y4-YCj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eeZ-zJ-6wc" secondAttribute="trailing" constant="20" id="qSb-bv-slO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kBf-Ji-umI" secondAttribute="trailing" constant="20" id="rZ3-lS-dSO"/>
+                            <constraint firstItem="kBf-Ji-umI" firstAttribute="top" secondItem="bgp-Wo-czH" secondAttribute="bottom" constant="35" id="uN6-F7-y3W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s3e-tZ-Rso" secondAttribute="trailing" constant="20" id="vBb-yY-LQ3"/>
+                            <constraint firstItem="Duq-xa-gqi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wBm-TD-HtU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="information" destination="Duq-xa-gqi" id="pBE-1h-XEf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.891304347826093"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
